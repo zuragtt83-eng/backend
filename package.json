@@ -1,0 +1,24 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/zuragtt83-eng/backend#readme",
+  "bugs": {
+    "url": "https://github.com/zuragtt83-eng/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuragtt83-eng/backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "restApi.js",
+  "scripts": {
+    "dev": "nodemon restApi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
